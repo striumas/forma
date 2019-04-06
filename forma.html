@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="forma_style.css">
+<body>
+<form action="/action_page.php">
+    <!-- Title -->
+        <div class="title padding">
+            Title
+        </div>
+
+        <div class="input">
+            <input class="width" type="text" name="subject" placeholder="Select one or enter your own" required>
+        </div>
+    <!-- Name -->
+        <div class="title padding">
+            Name
+        </div>
+
+        <div class="input">
+            <input class="width" type="text" name="name" placeholder="John Doe" required>
+        </div>
+    <!-- Number -->
+        <div class="title padding">
+            Phone number
+        </div>
+
+        <div class="input">
+            <input class="width" type="tel" name="phone" placeholder="+1 553854">(optional)
+        </div>
+    <!-- Email -->
+        <div class="title padding">
+            Email address
+        </div>
+
+        <div class="input">
+            <input class="width" type="email" name="email" placeholder="asd@gmail.ru" required>
+        </div>
+    <!-- Web -->
+        <div class="title padding">
+            Your website
+        </div>
+
+        <div class="input">
+            <input class="width" type="url" name="website" placeholder="www.yoursite.com">(optional)
+        </div>
+    <!-- Quantity -->
+        <div class="title padding">
+            Nr. of items to order
+        </div>
+
+        <div class="input">
+            <label>
+                <input class="width3" min="1" max="10" name="quantity" type="number">
+            </label>(1-10)
+        </div>
+    <!-- Length -->
+        <div class="title padding">
+            Length
+        </div>
+
+        <div class="input padding">
+            <label>
+                <input type="range" name="length" min="0" max="100" step="10" value="1">
+            </label>(in 10cm increments)
+        </div>
+    <!-- Date -->
+        <div class="title padding">
+            Delivery date
+        </div>
+
+        <div class="input">
+            <label>
+                <input class="width2" type="date" name="date" min="2010-12-16">
+            </label>
+            (minimum 16 December 2010)
+        </div>
+    <!-- Delivery time -->
+        <div class="title padding">
+            Time of delivery
+        </div>
+
+        <div class="input">
+            <label>
+                <input class="width2" type="time" name="time" step="60">(in 30 minutes increments)
+            </label>
+        </div>
+    <!-- Color -->
+        <div class="title padding">
+            Color of the item
+        </div>
+
+        <div class="input">
+            <label>
+                <input type="color" name="color" value="#ed1c24">
+            </label>
+            (default red)
+        </div>
+    <!-- Button -->
+    <div class="button">
+    <input type="submit" value="Submit">
+    </div>
+</form>
+    <form class="form2">
+    <!-- Search -->
+    <div class="title padding ">
+    Search
+    </div>
+    <!-- Google -->
+    <div class="input">
+        <label>
+            <input type="search" name="googlesearch">
+        </label> <input type="submit" value="Go">
+    </div>
+
+</form>
+
+</body>
+</html>

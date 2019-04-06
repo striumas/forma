@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.title {
+    font-weight: bold;
+    width: 25%;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+form {
+    background-color: whitesmoke;
+    width: 700px;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.input {
+    width: 74%;
+    text-align: left;
+    display: inline-block;
+}
+
+.padding {
+    padding: 4px;
+}
+.button {
+    width: 100%;
+    text-align: left;
+    padding:20px 0 20px 150px;
+}
+
+.form2 {
+    margin-top: 20px;
+    padding: 10px 0 5px 0;
+}
+
+input[type=submit], input[type=search] {
+    border-radius: 20px;
+}
+
+.width {
+    width: 180px;
+}
+
+.width2 {
+    width: 110px;
+}
+
+.width3 {
+    width: 40px;
+}
